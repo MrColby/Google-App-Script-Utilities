@@ -22,7 +22,6 @@ var ONLY_UNREAD = false;
 function deleteThreads() {
   Logger.log("Inbox unread count before executions: " + GmailApp.getInboxUnreadCount());
   var threads = GmailApp.getInboxThreads(START_INDEX, THREADS);
-  Logger.log(threads.length + " before run.");
   for (var i = 0; i < threads.length; i++) {
     var thread = threads[i];
     var messages = thread.getMessages();
