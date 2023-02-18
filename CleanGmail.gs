@@ -13,7 +13,7 @@
 var START_INDEX = 1001;
 
 // Set MESSAGES_TO_DELETE to any positive whole number to control how many messages to potentially delete. If the script times out and the error messages bother you, set MESSAGES_TO_DELETE to a lower value.
-var MESSAGES_TO_DELETE = 1000;
+var MESSAGES_TO_DELETE = 500;
 
 // SET ONLY_UNREAD to control whether only unread messages will be deleted.
 var ONLY_UNREAD = false;
